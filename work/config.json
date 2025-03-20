@@ -1,0 +1,11 @@
+{
+    "index_path": "C:/Users/sagie/PycharmProjects/LA_Project/data/indexes/retrieve_index.faiss",
+    "index_save_path": "C:/Users/sagie/PycharmProjects/LA_Project/data/indexes/retrieve_index.faiss",
+    "documents_index_path": "C:/Users/sagie/PycharmProjects/LA_Project/data/indexes/documents_index.pkl",
+    "documents_save_index_path": "C:/Users/sagie/PycharmProjects/LA_Project/data/indexes/documents_index.pkl",
+    "retriever_model_name": "intfloat/e5-large-v2",
+    "rag_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "input_mode": "text",
+    "audio_model_name": "openai/whisper-large-v3-turbo",
+    "documents_path_folder": null
+}
