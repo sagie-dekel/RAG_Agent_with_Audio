@@ -1,8 +1,13 @@
 # RAG Syste
 
 ## 📖 About This Project  
-As part of my **self-learning journey in Data Science**, I explored **audio processing with LLMs** and **Retrieval-Augmented Generation (RAG)**. This project is a practical implementation of the concepts I learned, combining **document retrieval, speech-to-text processing, and AI-powered knowledge generation**. By integrating **FAISS-based search, GraphRAG, and OpenAI Whisper for audio input**, I built a system capable of handling **both textual and spoken queries** with intelligent response generation.
-
+This project is an implementation of various concepts I have self-learned about **Retrieval-Augmented Generation (RAG)** and **audio processing**, particularly in the context of **Large Language Models (LLMs)**. 
+Through this project, I explored key areas such as:
+- **RAG-based information retrieval**, utilizing embedding models for document search.
+- **Efficient indexing with FAISS**, to enable fast and accurate retrieval.
+- **LLM-powered response generation**, using transformers to provide contextual answers.
+- **Speech-to-text processing**, leveraging Whisper for seamless voice interactions.
+  
 ---
 
 ## 🚀 Overview  
