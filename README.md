@@ -1,4 +1,4 @@
-# RAG System
+# RAG Syste
 
 ## 📖 About This Project  
 As part of my **self-learning journey in Data Science**, I explored **audio processing with LLMs** and **Retrieval-Augmented Generation (RAG)**. This project is a practical implementation of the concepts I learned, combining **document retrieval, speech-to-text processing, and AI-powered knowledge generation**. By integrating **FAISS-based search, GraphRAG, and OpenAI Whisper for audio input**, I built a system capable of handling **both textual and spoken queries** with intelligent response generation.
@@ -21,21 +21,20 @@ This **RAG (Retrieval-Augmented Generation) System** is a powerful AI-driven pip
 - Integrates **OpenAI Whisper** for speech-to-text processing.  
 
 ✅ **Adaptive Routing**  
-- Can route queries based on intent (e.g., direct retrieval vs. generative response).  
+- Can route queries based on intent (e.g., direct retrieval vs. generative response), also called LLM-fallback.  
 - Supports **customized workflows** based on query complexity.  
-
-✅ **Flexible Configuration**  
-- Uses a **JSON configuration file** for managing paths and models.  
-- Can load **all documents** from a specified folder dynamically.  
-
-✅ **Command-Line & Environment Variable Support**  
-- Configuration can be passed via **CLI arguments** or **environment variables** for easy deployment.
 
 ---
 
 ## 🛠️ Installation & Setup  
 
-### 1️⃣ Install Dependencies  
+### Install Dependencies  
 Ensure you have Python **3.8+** installed, then install the required dependencies:  
 ```sh
 pip install -r requirements.txt
+```
+
+### Run the System
+```sh
+python path_to_main.py --json_file path_to_config.json
+```
