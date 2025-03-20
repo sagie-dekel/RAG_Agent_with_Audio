@@ -1,0 +1,15 @@
+absl-py
+argparse
+faiss-cpu
+json5
+librosa
+numpy
+PyPDF2
+python-docx
+requests
+sentence-transformers
+soundfile
+speechrecognition
+torch
+torchaudio
+transformers
